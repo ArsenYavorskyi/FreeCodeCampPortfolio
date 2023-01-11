@@ -308,4 +308,22 @@ h2 {
     display: flex;
     align-items: center;
     gap: 1rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: var(--color-gray);
+    display: flex;
+    padding: 4rem 3rem;
+    justify-content: space-around;
+    border-top: 0.5rem solid var(--color-red);
+    gap: 2rem;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 1.8rem;
 }
